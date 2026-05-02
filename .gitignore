@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# ML / Data
+mlflow_data/
+*.pkl
+data/
+
+# Logs
+*.log
+
+# System
+.DS_Store

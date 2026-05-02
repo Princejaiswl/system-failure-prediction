@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# MLflow artifacts (VERY IMPORTANT)
+mlruns/
+mlflow_data/
+mlflow.db
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+
+# Optional (only if not needed inside container)
+# test_loads.py
